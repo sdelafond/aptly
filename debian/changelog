@@ -1,3 +1,10 @@
+aptly (1.1.1-2~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports
+  * Add debian/gbp.conf
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 03 Nov 2017 09:03:18 +0100
+
 aptly (1.1.1-2) unstable; urgency=medium
 
   * Support both uncompressed control.tar, and xz-compressed
