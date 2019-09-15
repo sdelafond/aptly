@@ -2,7 +2,6 @@ Source: aptly
 Section: utils
 Priority: optional
 Maintainer: Sebastien Delafond <seb@debian.org>
-Uploaders: Alexandre Viau <aviau@debian.org>
 Build-Depends: debhelper (>= 11),
                dh-golang,
                golang-any,
