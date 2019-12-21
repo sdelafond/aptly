@@ -5,7 +5,7 @@ Maintainer: Sebastien Delafond <seb@debian.org>
 Build-Depends: debhelper (>= 11),
                dh-golang,
                golang-any,
-               golang-go.tools,
+               golang-golang-x-tools-dev,
                bash-completion,
                golang-github-disposaboy-jsonconfigreader-dev,
                golang-gopkg-h2non-filetype.v1-dev,
