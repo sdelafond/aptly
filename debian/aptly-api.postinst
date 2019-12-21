@@ -22,7 +22,7 @@ case "$1" in
     configure|reconfigure)
 
         # create an aptly-api group and user
-        if ! grep -q aptly-api /etc/passwd; then
+        if ! getent passwd aptly-api > /dev/null; then
         adduser --system --home /var/lib/aptly-api --no-create-home aptly-api
         addgroup --system aptly-api
         adduser aptly-api aptly-api
