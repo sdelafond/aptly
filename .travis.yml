@@ -35,7 +35,7 @@ matrix:
     - go: 1.13.x
       env:
         - RUN_LONG_TESTS=yes
-        - DEPLOY_BINARIES=yes
+        - DEPLOY_BINARIES=no
         - APTLY_USER=aptly
         - secure: "ejVss+Ansvk9f237iXVd87KA8N/SkfJkEdr/KCw9WRkVw3M9WyYtFnqpakIUPFT8RsSc7MW+RU4OM90DsbE9dbDIL0oW+t6QH/IfGjNG2HjDiGEWN/tMLeAQTtzPaVqlItJBo0ILMF2K6NrgkYBYU+tZ8gk5w7CuARvAk82d00o="
     - go: master
