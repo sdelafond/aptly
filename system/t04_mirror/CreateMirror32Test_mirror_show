@@ -1,0 +1,22 @@
+Name: mirror32
+Archive Root URL: http://mirror.yandex.ru/debian/
+Distribution: stretch
+Components: main, contrib, non-free
+Architectures: amd64, arm64, armel, armhf, i386, mips, mips64el, mipsel, ppc64el, s390x
+Download Sources: no
+Download .udebs: no
+Last update: never
+
+Information from release file:
+Acquire-By-Hash: yes
+Architectures: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+Changelogs: http://metadata.ftp-master.debian.org/changelogs/@CHANGEPATH@_changelog
+Codename: stretch
+Components: main contrib non-free
+Date: Sat, 27 Apr 2019 09:29:22 UTC
+Description:  Debian 9.9 Released 27 April 2019
+
+Label: Debian
+Origin: Debian
+Suite: stable
+Version: 9.9
