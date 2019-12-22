@@ -3,6 +3,11 @@ sudo: required
 
 language: go
 
+branches:
+  except:
+  - debian/master
+  - debian/upstream
+
 go_import_path: github.com/aptly-dev/aptly
 
 addons:
